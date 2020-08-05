@@ -10,7 +10,7 @@
 <body>
 <div>
  <form action="/codigo" method="post">
- <h1><c:out value="${error}"/></h1>
+ <h1 style="color:red"><c:out value="${error}"/></h1>
  <h1>Cual es el codigo</h1>
  <input type="text" name="bushido">
  </form>
